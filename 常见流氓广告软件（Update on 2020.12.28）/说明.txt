@@ -1,0 +1,22 @@
+所有反安装reg，都是在虚拟机里win7 sp1原版系统下，用Total Uninstall分析软件安装，稍加修改导出的。
+
+压缩软件、看图软件、pdf阅读器等reg导入后，可能导致相关文件关联恢复系统初始状态，需要自己打开你的软件重新关联(一般打开后自动关联)。
+
+如果按照说明依旧无法删除软件，可能是版本不对，是新版或者旧版。
+
+又或者你系统是32位。这个我不管，64位是趋势，不打算发32位版本。
+
+  需要自己编辑reg，查找\Wow6432Node，替换成空。
+  编辑txt，查找\SysWOW64，替换成\System32。
+  查找\Program Files (x86)，替换成C:\Program Files。
+
+软件版本不对，或者列表里没有软件，可以发邮件联系我更新（最好提供下载器等安装包）：SiHaiYiYeQiu@qq.com
+
+
+其他的可以参考以下这些文章：
+http://tieba.baidu.com/p/6378757748
+http://tieba.baidu.com/p/6042434341
+https://blog.csdn.net/hfhbutn/article/details/100660663
+
+
+
